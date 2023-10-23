@@ -1,0 +1,60 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elizabeth
+spec:
+  profile:
+    displayName: Elizabeth Williams
+    email: Elizabeth.Williams@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/female/0.jpg
+  memberOf: [devops]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: amelia
+spec:
+  profile:
+    displayName: Amelia Monk
+    email: Amelia.Monk@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/female/1.jpg
+  memberOf: [engineering-department]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: christopher
+spec:
+  profile:
+    displayName: Christopher Craft
+    email: Christopher.Craft@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/male/0.jpg
+  memberOf: [devops]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: thomas
+spec:
+  profile:
+    displayName: Thomas Nelson
+    email: Thomas.Nelson@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
+  memberOf: [user-experience]
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: bob
+spec:
+  profile:
+    displayName: Bob Hayes
+    email: Bob.Hayes@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
+  memberOf: [user-experience]
+---
