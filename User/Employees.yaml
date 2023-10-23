@@ -7,7 +7,7 @@ spec:
   profile:
     displayName: Elizabeth Williams
     email: Elizabeth.Williams@example.com
-    picture: https://xsgames.co/randomusers/assets/avatars/female/0.jpg
+    picture: https://xsgames.co/randomusers/assets/avatars/female/1.jpg
   memberOf: [devops]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
@@ -19,7 +19,7 @@ spec:
   profile:
     displayName: Amelia Monk
     email: Amelia.Monk@example.com
-    picture: https://xsgames.co/randomusers/assets/avatars/female/1.jpg
+    picture: https://xsgames.co/randomusers/assets/avatars/female/2.jpg
   memberOf: [engineering-department]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
@@ -31,7 +31,7 @@ spec:
   profile:
     displayName: Christopher Craft
     email: Christopher.Craft@example.com
-    picture: https://xsgames.co/randomusers/assets/avatars/male/0.jpg
+    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
   memberOf: [devops]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
@@ -43,7 +43,7 @@ spec:
   profile:
     displayName: Thomas Nelson
     email: Thomas.Nelson@example.com
-    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
+    picture: https://xsgames.co/randomusers/assets/avatars/male/2.jpg
   memberOf: [user-experience]
 ---
 # https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
@@ -55,6 +55,6 @@ spec:
   profile:
     displayName: Bob Hayes
     email: Bob.Hayes@example.com
-    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
+    picture: https://xsgames.co/randomusers/assets/avatars/male/3.jpg
   memberOf: [user-experience]
 ---
