@@ -7,7 +7,6 @@ metadata:
   description: InnoCraft is a cutting-edge software development platform that revolutionizes how teams collaborate on projects. With powerful tools for version control, code review, and seamless integration, InnoCraft empowers developers to craft innovative solutions with precision and efficiency.
 spec:
   owner: devops
-  domain:
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -17,7 +16,6 @@ metadata:
   description: echWiz is an all-in-one technology consulting service designed to transform businesses into digital powerhouses. Our team of experts offers tailored solutions in web development, cloud computing, cybersecurity, and data analytics, ensuring your company stays ahead in the fast-paced tech landscape.
 spec:
   owner: devops
-  domain:
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -27,7 +25,6 @@ metadata:
   description: GloMuse is a virtual reality experience that transports users into an immersive world of art and culture. Dive into the masterpieces of renowned artists, explore interactive exhibits, and create your own artistic wonders. GloMuse redefines the way we engage with creativity.
 spec:
   owner: user-experience
-  domain:
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -37,7 +34,6 @@ metadata:
   description: CyberByte is a state-of-the-art cybersecurity platform designed to safeguard your digital assets from evolving threats. Our advanced threat detection algorithms, combined with real-time monitoring, provide unparalleled protection for your sensitive data and critical systems.
 spec:
   owner: engineering-department
-  domain:
 ---
 apiVersion: backstage.io/v1alpha1
 kind: System
@@ -47,5 +43,4 @@ metadata:
   description: AquaLink is an innovative water management solution that harnesses IoT technology to optimize water usage in urban environments. By seamlessly integrating with existing infrastructure, AquaLink provides real-time insights and intelligent recommendations, paving the way for a sustainable water future.
 spec:
   owner: engineering-department
-  domain:
 ---
