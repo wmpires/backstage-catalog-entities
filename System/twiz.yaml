@@ -1,0 +1,9 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: TWIZ
+  title: TechWiz
+  description: echWiz is an all-in-one technology consulting service designed to transform businesses into digital powerhouses. Our team of experts offers tailored solutions in web development, cloud computing, cybersecurity, and data analytics, ensuring your company stays ahead in the fast-paced tech landscape.
+spec:
+  owner: devops

@@ -1,0 +1,11 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: thomas
+spec:
+  profile:
+    displayName: Thomas Nelson
+    email: Thomas.Nelson@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/male/2.jpg
+  memberOf: [user-experience]

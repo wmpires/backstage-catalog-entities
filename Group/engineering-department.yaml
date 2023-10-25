@@ -1,0 +1,12 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering-department
+spec:
+  type: team
+  profile:
+    displayName: Engineering Department
+    email: engineering-department@example.com
+    picture: https://ui-avatars.com/api/?background=ad3931&color=fff&name=ED
+  children: []

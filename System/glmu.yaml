@@ -1,0 +1,9 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: GLMU
+  title: GloMuse
+  description: GloMuse is a virtual reality experience that transports users into an immersive world of art and culture. Dive into the masterpieces of renowned artists, explore interactive exhibits, and create your own artistic wonders. GloMuse redefines the way we engage with creativity.
+spec:
+  owner: user-experience

@@ -1,0 +1,11 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: christopher
+spec:
+  profile:
+    displayName: Christopher Craft
+    email: Christopher.Craft@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/male/1.jpg
+  memberOf: [devops]

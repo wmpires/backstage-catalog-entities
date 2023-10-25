@@ -1,0 +1,56 @@
+#https://backstage.io/docs/features/software-catalog/descriptor-format#kind-api
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: placeholder-fake-api
+  description: Free fake API for testing and prototyping.
+spec:
+  type: openapi
+  lifecycle: prd
+  owner: devops
+  system: TWIZ
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: JSONPlaceholder API
+      version: 1.0.0
+      description: A simple API for testing and prototyping.
+    servers:
+      - url: https://jsonplaceholder.typicode.com
+    paths:
+      /posts:
+        get:
+          summary: Get all posts
+          responses:
+            '200':
+              description: Successful response
+              content:
+                application/json:
+                  schema:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Post'
+    components:
+      schemas:
+        Post:
+          type: object
+          properties:
+            userId:
+              type: integer
+            id:
+              type: integer
+            title:
+              type: string
+            body:
+              type: string
+          required:
+            - userId
+            - id
+            - title
+            - body
+    tags:
+      - name: posts
+        description: Operations related to posts
+
+
+

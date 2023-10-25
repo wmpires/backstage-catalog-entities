@@ -1,0 +1,11 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: elizabeth
+spec:
+  profile:
+    displayName: Elizabeth Williams
+    email: Elizabeth.Williams@example.com
+    picture: https://xsgames.co/randomusers/assets/avatars/female/1.jpg
+  memberOf: [devops]

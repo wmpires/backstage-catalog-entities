@@ -1,0 +1,12 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: user-experience
+spec:
+  type: team
+  profile:
+    displayName: User Experience (UX)
+    email: user-experience@example.com
+    picture: https://ui-avatars.com/api/?background=6131ad&color=fff&name=UX
+  children: []

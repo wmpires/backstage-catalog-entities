@@ -1,0 +1,9 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format/#kind-system
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: AQNK
+  title: AquaLink
+  description: AquaLink is an innovative water management solution that harnesses IoT technology to optimize water usage in urban environments. By seamlessly integrating with existing infrastructure, AquaLink provides real-time insights and intelligent recommendations, paving the way for a sustainable water future.
+spec:
+  owner: engineering-department
